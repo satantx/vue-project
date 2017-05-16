@@ -1,0 +1,30 @@
+* {outline: none;	margin: 0; padding: 0px;}
+ol, ul {list-style: none;}
+
+html,
+body {
+   height:100%;
+}
+
+body {
+   font-size: 14px;
+   font-family: Arial, sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #fff;
+}
+
+ul {
+   background: #292D35;
+   width: 220px;
+   padding: 10px 0;
+   margin-bottom: 30px;
+}
+
+ul li {
+   padding: 10px 20px;
+   font-size:18px;
+   color: #fff;
+}

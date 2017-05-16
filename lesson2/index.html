@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div id="app">
+   	<button @click="show = !show" class="button">Нажать</button>
+   	<transition name="slide">
+   		<div v-show="show" class="box"></div>
+   	</transition>
+   </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.0/vue.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

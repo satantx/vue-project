@@ -1,0 +1,35 @@
+* {outline: none;	margin: 0; padding: 0px;}
+ol, ul {list-style: none;}
+
+html,
+body {
+   height:100%;
+}
+
+body {
+   font-size: 14px;
+   font-family: Arial, sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #fff;
+}
+.box {
+   width: 220px;
+   height: 100%;
+   position: fixed;
+   box-shadow: 0 2px 4px rgba(0,0,0,.5);
+   top: 0;
+   left: 0;
+   background-color: #fff;
+   z-index: 2;
+}
+
+.slide-enter-active, .slide-leave-active {
+    transition: all .3s cubic-bezier(.65, .05, .36, 1);
+}
+
+.slide-enter, .slide-leave-to {
+   left: -220px;
+}
